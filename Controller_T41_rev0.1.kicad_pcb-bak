@@ -1690,8 +1690,8 @@
     )
   )
 
-  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D8668)
-    (at 138.784001 139.419001)
+  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D89ED)
+    (at 175.006 97.028)
     (descr "Mounting Hole 3mm")
     (tags "mounting hole 3mm")
     (path /5FA96D04)
@@ -1727,8 +1727,8 @@
       (net 65 GND))
   )
 
-  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D8678)
-    (at 138.784001 146.969001)
+  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D8A1A)
+    (at 175.006 147.701)
     (descr "Mounting Hole 3mm")
     (tags "mounting hole 3mm")
     (path /5FA96B17)
@@ -1764,8 +1764,8 @@
       (net 131 "Net-(H2-Pad1)"))
   )
 
-  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D8688)
-    (at 146.334001 139.419001)
+  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D8A74)
+    (at 200.406 97.028)
     (descr "Mounting Hole 3mm")
     (tags "mounting hole 3mm")
     (path /5FA95E4E)
@@ -1801,8 +1801,8 @@
       (net 65 GND))
   )
 
-  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D8698)
-    (at 146.334001 146.969001)
+  (module MountingHole:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5F9D8A47)
+    (at 200.406 147.828)
     (descr "Mounting Hole 3mm")
     (tags "mounting hole 3mm")
     (path /5FA96F57)
