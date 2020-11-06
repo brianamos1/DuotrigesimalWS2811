@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Controller_T41_rev0.1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -232,50 +231,6 @@ Wire Wire Line
 	4150 4410 4150 3690
 Wire Wire Line
 	4150 3690 4450 3690
-$Comp
-L Connector:RJ45 J4
-U 1 1 5F9D3F0E
-P 1610 5450
-F 0 "J4" H 1667 6117 50  0000 C CNN
-F 1 "RJ45" H 1667 6026 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1610 5475 50  0001 C CNN
-F 3 "~" V 1610 5475 50  0001 C CNN
-	1    1610 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:RJ45 J3
-U 1 1 5F9D7554
-P 1580 4420
-F 0 "J3" H 1637 5087 50  0000 C CNN
-F 1 "RJ45" H 1637 4996 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1580 4445 50  0001 C CNN
-F 3 "~" V 1580 4445 50  0001 C CNN
-	1    1580 4420
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:RJ45 J2
-U 1 1 5F9D9E52
-P 1580 3390
-F 0 "J2" H 1637 4057 50  0000 C CNN
-F 1 "RJ45" H 1637 3966 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1580 3415 50  0001 C CNN
-F 3 "~" V 1580 3415 50  0001 C CNN
-	1    1580 3390
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:RJ45 J1
-U 1 1 5F9DAF98
-P 1580 2350
-F 0 "J1" H 1637 3017 50  0000 C CNN
-F 1 "RJ45" H 1637 2926 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1580 2375 50  0001 C CNN
-F 3 "~" V 1580 2375 50  0001 C CNN
-	1    1580 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2440 5110 2440 5650
 Wire Wire Line
@@ -321,23 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	2440 4020 1980 4020
 Wire Wire Line
-	1980 3590 2990 3590
-Wire Wire Line
-	2990 3490 2110 3490
-Wire Wire Line
-	2110 3490 2110 3390
-Wire Wire Line
-	2110 3390 1980 3390
-Wire Wire Line
 	1980 3190 2140 3190
-Wire Wire Line
-	2140 3190 2140 3390
-Wire Wire Line
-	2140 3390 2990 3390
-Wire Wire Line
-	2990 3290 2160 3290
-Wire Wire Line
-	2160 3290 2160 2990
 Wire Wire Line
 	2160 2990 1980 2990
 Wire Wire Line
@@ -362,8 +301,6 @@ Wire Wire Line
 	2990 2890 2640 2890
 Wire Wire Line
 	2640 2890 2640 1950
-Wire Wire Line
-	2640 1950 2370 1950
 $Comp
 L power:GND #PWR0101
 U 1 1 5FA34FCC
@@ -382,8 +319,6 @@ Wire Wire Line
 Wire Wire Line
 	2010 5750 2100 5750
 Connection ~ 2100 5750
-Wire Wire Line
-	2100 5750 2100 6630
 Wire Wire Line
 	2010 5550 2100 5550
 Wire Wire Line
@@ -420,7 +355,7 @@ Wire Wire Line
 	2100 4520 2100 4720
 Connection ~ 2100 4720
 Wire Wire Line
-	2100 4720 2100 5150
+	2100 4720 2100 4920
 Wire Wire Line
 	1980 2250 2100 2250
 Connection ~ 2100 2250
@@ -437,7 +372,7 @@ Connection ~ 2100 2650
 Wire Wire Line
 	1980 3090 2100 3090
 Wire Wire Line
-	2100 2650 2100 3090
+	2100 2650 2100 2850
 Connection ~ 2100 3090
 Wire Wire Line
 	1980 3290 2100 3290
@@ -445,17 +380,10 @@ Wire Wire Line
 	2100 3090 2100 3290
 Connection ~ 2100 3290
 Wire Wire Line
-	1980 3490 2100 3490
-Wire Wire Line
-	2100 3290 2100 3490
-Connection ~ 2100 3490
-Wire Wire Line
 	1980 3690 2100 3690
-Wire Wire Line
-	2100 3490 2100 3690
 Connection ~ 2100 3690
 Wire Wire Line
-	2100 3690 2100 3950
+	2100 3690 2100 3890
 Wire Wire Line
 	8590 4810 8590 5730
 Wire Wire Line
@@ -501,47 +429,9 @@ Wire Wire Line
 Wire Wire Line
 	8590 3990 8590 4110
 Wire Wire Line
-	8140 3190 8140 3470
-Wire Wire Line
-	8140 3470 9290 3470
-Wire Wire Line
-	9290 3270 8180 3270
-Wire Wire Line
-	8180 3270 8180 3090
-Wire Wire Line
-	8180 3090 8140 3090
-Wire Wire Line
-	8140 2990 8240 2990
-Wire Wire Line
-	8240 2990 8240 3070
-Wire Wire Line
-	8240 3070 9290 3070
-Wire Wire Line
-	9290 2870 9200 2870
-Wire Wire Line
-	9200 2870 9200 2890
-Wire Wire Line
-	9200 2890 8140 2890
-Wire Wire Line
-	8140 2790 9250 2790
-Wire Wire Line
-	9250 2790 9250 2340
-Wire Wire Line
-	8140 2690 9170 2690
-Wire Wire Line
-	9170 2690 9170 2140
-Wire Wire Line
 	9170 2140 9250 2140
 Wire Wire Line
 	9250 1940 9060 1940
-Wire Wire Line
-	9060 1940 9060 2590
-Wire Wire Line
-	9060 2590 8140 2590
-Wire Wire Line
-	8140 2490 9020 2490
-Wire Wire Line
-	9020 2490 9020 1740
 Wire Wire Line
 	9020 1740 9250 1740
 Wire Wire Line
@@ -573,7 +463,7 @@ Wire Wire Line
 	9310 4490 9190 4490
 Connection ~ 9190 4490
 Wire Wire Line
-	9190 4490 9190 5030
+	9190 4490 9190 4830
 Wire Wire Line
 	9310 4290 9190 4290
 Connection ~ 9190 4290
@@ -606,8 +496,6 @@ Wire Wire Line
 Connection ~ 9190 2240
 Wire Wire Line
 	9290 2770 9190 2770
-Wire Wire Line
-	9190 2240 9190 2770
 Connection ~ 9190 2770
 Wire Wire Line
 	9190 2770 9190 2980
@@ -675,7 +563,7 @@ Wire Wire Line
 	6440 1660 6440 1610
 Connection ~ 9190 3510
 Wire Wire Line
-	9190 3510 9190 3890
+	9190 3510 9190 3690
 Connection ~ 3340 6630
 Wire Wire Line
 	3340 6630 4520 6630
@@ -790,11 +678,6 @@ Connection ~ 8530 1890
 Wire Wire Line
 	8530 1890 8900 1890
 Wire Wire Line
-	2370 1530 2370 1950
-Connection ~ 2370 1950
-Wire Wire Line
-	2370 1950 1980 1950
-Wire Wire Line
 	6440 1660 3890 1660
 Wire Wire Line
 	3890 1660 3890 1920
@@ -854,47 +737,208 @@ Connection ~ 7690 5110
 Wire Wire Line
 	9290 2980 9290 2970
 $Comp
-L Connector:RJ45 J5
-U 1 1 5F9E44CF
+L Connector:RJ45_LED_Shielded_x2 J4
+U 2 1 5FA62167
 P 9650 1940
-F 0 "J5" H 9320 1944 50  0000 R CNN
-F 1 "RJ45" H 9320 2035 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 9650 1965 50  0001 C CNN
+F 0 "J4" H 9650 2607 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 9650 2516 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 9650 1965 50  0001 C CNN
 F 3 "~" V 9650 1965 50  0001 C CNN
-	1    9650 1940
+	2    9650 1940
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:RJ45 J6
-U 1 1 5F9E3680
+L Connector:RJ45_LED_Shielded_x2 J4
+U 1 1 5FA95E4A
 P 9690 3070
-F 0 "J6" H 9360 3074 50  0000 R CNN
-F 1 "RJ45" H 9360 3165 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 9690 3095 50  0001 C CNN
+F 0 "J4" H 9690 3737 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 9690 3646 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 9690 3095 50  0001 C CNN
 F 3 "~" V 9690 3095 50  0001 C CNN
 	1    9690 3070
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:RJ45 J7
-U 1 1 5F9E13FA
+L Connector:RJ45_LED_Shielded_x2 J1
+U 1 1 5FB4DD27
+P 1580 2350
+F 0 "J1" H 1580 3017 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 1580 2926 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 1580 2375 50  0001 C CNN
+F 3 "~" V 1580 2375 50  0001 C CNN
+	1    1580 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45_LED_Shielded_x2 J1
+U 2 1 5FB50B78
+P 1580 3390
+F 0 "J1" H 1580 4057 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 1580 3966 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 1580 3415 50  0001 C CNN
+F 3 "~" V 1580 3415 50  0001 C CNN
+	2    1580 3390
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45_LED_Shielded_x2 J2
+U 2 1 5FC295D6
+P 1580 4420
+F 0 "J2" H 1580 5087 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 1580 4996 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 1580 4445 50  0001 C CNN
+F 3 "~" V 1580 4445 50  0001 C CNN
+	2    1580 4420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45_LED_Shielded_x2 J2
+U 1 1 5FC2B90B
+P 1610 5450
+F 0 "J2" H 1610 6117 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 1610 6026 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 1610 5475 50  0001 C CNN
+F 3 "~" V 1610 5475 50  0001 C CNN
+	1    1610 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45_LED_Shielded_x2 J3
+U 2 1 5FC36180
+P 9770 5330
+F 0 "J3" H 9770 5997 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 9770 5906 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 9770 5355 50  0001 C CNN
+F 3 "~" V 9770 5355 50  0001 C CNN
+	2    9770 5330
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:RJ45_LED_Shielded_x2 J3
+U 1 1 5FC36186
 P 9710 4190
-F 0 "J7" H 9380 4194 50  0000 R CNN
-F 1 "RJ45" H 9380 4285 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 9710 4215 50  0001 C CNN
+F 0 "J3" H 9710 4857 50  0000 C CNN
+F 1 "RJ45_LED_Shielded_x2" H 9710 4766 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X-02" V 9710 4215 50  0001 C CNN
 F 3 "~" V 9710 4215 50  0001 C CNN
 	1    9710 4190
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:RJ45 J8
-U 1 1 5F9DC7E0
-P 9770 5330
-F 0 "J8" H 9440 5334 50  0000 R CNN
-F 1 "RJ45" H 9440 5425 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 9770 5355 50  0001 C CNN
-F 3 "~" V 9770 5355 50  0001 C CNN
-	1    9770 5330
-	-1   0    0    1   
-$EndComp
+Wire Wire Line
+	1980 1950 2640 1950
+Wire Wire Line
+	2370 1530 2370 2050
+Wire Wire Line
+	2370 2050 2100 2050
+Connection ~ 2100 2050
+Wire Wire Line
+	2100 3290 2100 3490
+Wire Wire Line
+	2160 2990 2160 3590
+Wire Wire Line
+	2990 3490 2140 3490
+Wire Wire Line
+	2140 3190 2140 3490
+Wire Wire Line
+	1980 3390 2990 3390
+Wire Wire Line
+	2160 3590 2990 3590
+Wire Wire Line
+	2990 3290 2460 3290
+Wire Wire Line
+	2460 3290 2460 3530
+Wire Wire Line
+	2460 3530 2060 3530
+Wire Wire Line
+	2060 3530 2060 3590
+Wire Wire Line
+	2060 3590 1980 3590
+Wire Wire Line
+	1980 3490 2100 3490
+Connection ~ 2100 3490
+Wire Wire Line
+	2100 3490 2100 3690
+Wire Wire Line
+	9190 1640 9190 1440
+Wire Wire Line
+	9190 1440 9650 1440
+Wire Wire Line
+	9690 2570 9190 2570
+Wire Wire Line
+	9190 2240 9190 2570
+Connection ~ 9190 2570
+Wire Wire Line
+	9190 2570 9190 2770
+Wire Wire Line
+	9710 3690 9190 3690
+Connection ~ 9190 3690
+Wire Wire Line
+	9190 3690 9190 3890
+Wire Wire Line
+	9770 4830 9190 4830
+Connection ~ 9190 4830
+Wire Wire Line
+	9190 4830 9190 5030
+Wire Wire Line
+	1610 5950 2100 5950
+Wire Wire Line
+	2100 5750 2100 5950
+Connection ~ 2100 5950
+Wire Wire Line
+	2100 5950 2100 6630
+Wire Wire Line
+	1580 4920 2100 4920
+Connection ~ 2100 4920
+Wire Wire Line
+	2100 4920 2100 5150
+Wire Wire Line
+	1580 3890 2100 3890
+Connection ~ 2100 3890
+Wire Wire Line
+	2100 3890 2100 3950
+Wire Wire Line
+	1580 2850 2100 2850
+Connection ~ 2100 2850
+Wire Wire Line
+	2100 2850 2100 3090
+Wire Wire Line
+	9020 1740 9020 2790
+Wire Wire Line
+	9020 2790 8140 2790
+Wire Wire Line
+	8140 2690 9060 2690
+Wire Wire Line
+	9060 2690 9060 1940
+Wire Wire Line
+	9170 2140 9170 2590
+Wire Wire Line
+	9170 2590 8140 2590
+Wire Wire Line
+	8140 2490 9130 2490
+Wire Wire Line
+	9130 2490 9130 2340
+Wire Wire Line
+	9130 2340 9250 2340
+Wire Wire Line
+	8140 2890 8460 2890
+Wire Wire Line
+	8460 2890 8460 3470
+Wire Wire Line
+	8460 3470 9290 3470
+Wire Wire Line
+	9290 3270 8590 3270
+Wire Wire Line
+	8590 3270 8590 2990
+Wire Wire Line
+	8590 2990 8140 2990
+Wire Wire Line
+	8140 3090 9290 3090
+Wire Wire Line
+	9290 3090 9290 3070
+Wire Wire Line
+	9290 2870 8760 2870
+Wire Wire Line
+	8760 2870 8760 3190
+Wire Wire Line
+	8760 3190 8140 3190
 $EndSCHEMATC
