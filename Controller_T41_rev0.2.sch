@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "DuotrigesimalWS2811"
 Date ""
 Rev ""
-Comp ""
+Comp "Amos Computing"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L teensy:Teensy4.1 U1
 U 1 1 5FF3804F
-P 2240 5930
-F 0 "U1" H 2240 8495 50  0000 C CNN
-F 1 "Teensy4.1" H 2240 8404 50  0000 C CNN
-F 2 "teensy:Teensy41" H 1840 6330 50  0001 C CNN
-F 3 "" H 1840 6330 50  0001 C CNN
-	1    2240 5930
+P 2240 6240
+F 0 "U1" H 2240 8805 50  0000 C CNN
+F 1 "Teensy4.1" H 2240 8714 50  0000 C CNN
+F 2 "teensy:Teensy41" H 1840 6640 50  0001 C CNN
+F 3 "" H 1840 6640 50  0001 C CNN
+	1    2240 6240
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -178,236 +178,236 @@ INPUT VOLTAGE REGULATOR
 $Comp
 L power:+5V #PWR09
 U 1 1 5FAF7B56
-P 3460 3780
-F 0 "#PWR09" H 3460 3630 50  0001 C CNN
-F 1 "+5V" V 3475 3908 50  0000 L CNN
-F 2 "" H 3460 3780 50  0001 C CNN
-F 3 "" H 3460 3780 50  0001 C CNN
-	1    3460 3780
+P 3460 4090
+F 0 "#PWR09" H 3460 3940 50  0001 C CNN
+F 1 "+5V" V 3475 4218 50  0000 L CNN
+F 2 "" H 3460 4090 50  0001 C CNN
+F 3 "" H 3460 4090 50  0001 C CNN
+	1    3460 4090
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3340 3780 3460 3780
+	3340 4090 3460 4090
 $Comp
 L power:GND #PWR03
 U 1 1 5FAFA107
-P 1140 3780
-F 0 "#PWR03" H 1140 3530 50  0001 C CNN
-F 1 "GND" V 1145 3652 50  0000 R CNN
-F 2 "" H 1140 3780 50  0001 C CNN
-F 3 "" H 1140 3780 50  0001 C CNN
-	1    1140 3780
+P 1140 4090
+F 0 "#PWR03" H 1140 3840 50  0001 C CNN
+F 1 "GND" V 1145 3962 50  0000 R CNN
+F 2 "" H 1140 4090 50  0001 C CNN
+F 3 "" H 1140 4090 50  0001 C CNN
+	1    1140 4090
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5FAFADFD
-P 3340 5180
-F 0 "#PWR08" H 3340 4930 50  0001 C CNN
-F 1 "GND" V 3345 5052 50  0000 R CNN
-F 2 "" H 3340 5180 50  0001 C CNN
-F 3 "" H 3340 5180 50  0001 C CNN
-	1    3340 5180
+P 3340 5490
+F 0 "#PWR08" H 3340 5240 50  0001 C CNN
+F 1 "GND" V 3345 5362 50  0000 R CNN
+F 2 "" H 3340 5490 50  0001 C CNN
+F 3 "" H 3340 5490 50  0001 C CNN
+	1    3340 5490
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5FAFC2B7
-P 2240 7230
-F 0 "#PWR04" H 2240 6980 50  0001 C CNN
-F 1 "GND" H 2245 7057 50  0000 C CNN
-F 2 "" H 2240 7230 50  0001 C CNN
-F 3 "" H 2240 7230 50  0001 C CNN
-	1    2240 7230
+P 2240 7540
+F 0 "#PWR04" H 2240 7290 50  0001 C CNN
+F 1 "GND" H 2245 7367 50  0000 C CNN
+F 2 "" H 2240 7540 50  0001 C CNN
+F 3 "" H 2240 7540 50  0001 C CNN
+	1    2240 7540
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5FAFD30F
-P 3340 3880
-F 0 "#PWR07" H 3340 3630 50  0001 C CNN
-F 1 "GND" V 3345 3752 50  0000 R CNN
-F 2 "" H 3340 3880 50  0001 C CNN
-F 3 "" H 3340 3880 50  0001 C CNN
-	1    3340 3880
+P 3340 4190
+F 0 "#PWR07" H 3340 3940 50  0001 C CNN
+F 1 "GND" V 3345 4062 50  0000 R CNN
+F 2 "" H 3340 4190 50  0001 C CNN
+F 3 "" H 3340 4190 50  0001 C CNN
+	1    3340 4190
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1140 4680 0    50   Input ~ 0
+Text GLabel 1140 4990 0    50   Input ~ 0
 P_03
-Text GLabel 1140 4780 0    50   Input ~ 0
+Text GLabel 1140 5090 0    50   Input ~ 0
 P_04
-Text GLabel 1140 4880 0    50   Input ~ 0
+Text GLabel 1140 5190 0    50   Input ~ 0
 P_05
-Text GLabel 1140 4980 0    50   Input ~ 0
+Text GLabel 1140 5290 0    50   Input ~ 0
 P_06
-Text GLabel 1140 5080 0    50   Input ~ 0
+Text GLabel 1140 5390 0    50   Input ~ 0
 P_07
-Text GLabel 1140 4580 0    50   Input ~ 0
+Text GLabel 1140 4890 0    50   Input ~ 0
 P_02
-Text GLabel 1140 4480 0    50   Input ~ 0
+Text GLabel 1140 4790 0    50   Input ~ 0
 P_01
-Text GLabel 3340 5080 2    50   Input ~ 0
+Text GLabel 3340 5390 2    50   Input ~ 0
 P_08
-Text GLabel 1140 5280 0    50   Input ~ 0
+Text GLabel 1140 5590 0    50   Input ~ 0
 P_09
-Text GLabel 1140 5380 0    50   Input ~ 0
+Text GLabel 1140 5690 0    50   Input ~ 0
 P_10
-Text GLabel 1140 5480 0    50   Input ~ 0
+Text GLabel 1140 5790 0    50   Input ~ 0
 P_11
-Text GLabel 1140 5580 0    50   Input ~ 0
+Text GLabel 1140 5890 0    50   Input ~ 0
 P_12
-Text GLabel 1140 5680 0    50   Input ~ 0
+Text GLabel 1140 5990 0    50   Input ~ 0
 P_13
-Text GLabel 1140 5880 0    50   Input ~ 0
+Text GLabel 1140 6190 0    50   Input ~ 0
 P_14
-Text GLabel 1140 5980 0    50   Input ~ 0
+Text GLabel 1140 6290 0    50   Input ~ 0
 P_15
-Text GLabel 1140 6080 0    50   Input ~ 0
+Text GLabel 1140 6390 0    50   Input ~ 0
 P_16
-NoConn ~ 1140 5780
-NoConn ~ 1140 5180
-NoConn ~ 1140 3880
-NoConn ~ 1140 3980
-NoConn ~ 1140 4080
-NoConn ~ 1140 4180
-NoConn ~ 1140 4280
-NoConn ~ 1140 4380
-NoConn ~ 1140 6280
-NoConn ~ 1140 6380
-NoConn ~ 1140 6530
-NoConn ~ 1140 6630
-NoConn ~ 1140 6730
-NoConn ~ 1140 6830
-NoConn ~ 1140 6930
-NoConn ~ 1940 7230
-NoConn ~ 2090 7230
-NoConn ~ 2390 7230
-NoConn ~ 2540 7230
-Text GLabel 3340 5980 2    50   Input ~ 0
+NoConn ~ 1140 6090
+NoConn ~ 1140 5490
+NoConn ~ 1140 4190
+NoConn ~ 1140 4290
+NoConn ~ 1140 4390
+NoConn ~ 1140 4490
+NoConn ~ 1140 4590
+NoConn ~ 1140 4690
+NoConn ~ 1140 6590
+NoConn ~ 1140 6690
+NoConn ~ 1140 6840
+NoConn ~ 1140 6940
+NoConn ~ 1140 7040
+NoConn ~ 1140 7140
+NoConn ~ 1140 7240
+NoConn ~ 1940 7540
+NoConn ~ 2090 7540
+NoConn ~ 2390 7540
+NoConn ~ 2540 7540
+Text GLabel 3340 6290 2    50   Input ~ 0
 P_17
-Text GLabel 3340 5880 2    50   Input ~ 0
+Text GLabel 3340 6190 2    50   Input ~ 0
 P_18
-Text GLabel 3340 5780 2    50   Input ~ 0
+Text GLabel 3340 6090 2    50   Input ~ 0
 P_19
-Text GLabel 3340 5680 2    50   Input ~ 0
+Text GLabel 3340 5990 2    50   Input ~ 0
 P_20
-Text GLabel 3340 5580 2    50   Input ~ 0
+Text GLabel 3340 5890 2    50   Input ~ 0
 P_21
-Text GLabel 3340 5480 2    50   Input ~ 0
+Text GLabel 3340 5790 2    50   Input ~ 0
 P_22
-NoConn ~ 3340 5380
-NoConn ~ 3340 5280
-Text GLabel 3340 4980 2    50   Input ~ 0
+NoConn ~ 3340 5690
+NoConn ~ 3340 5590
+Text GLabel 3340 5290 2    50   Input ~ 0
 P_23
-Text GLabel 3340 4880 2    50   Input ~ 0
+Text GLabel 3340 5190 2    50   Input ~ 0
 P_24
-Text GLabel 3340 4780 2    50   Input ~ 0
+Text GLabel 3340 5090 2    50   Input ~ 0
 P_25
-Text GLabel 3340 4680 2    50   Input ~ 0
+Text GLabel 3340 4990 2    50   Input ~ 0
 P_26
-Text GLabel 3340 4580 2    50   Input ~ 0
+Text GLabel 3340 4890 2    50   Input ~ 0
 P_27
-Text GLabel 3340 4480 2    50   Input ~ 0
+Text GLabel 3340 4790 2    50   Input ~ 0
 P_28
-Text GLabel 3340 4380 2    50   Input ~ 0
+Text GLabel 3340 4690 2    50   Input ~ 0
 P_29
-Text GLabel 3340 4280 2    50   Input ~ 0
+Text GLabel 3340 4590 2    50   Input ~ 0
 P_30
-Text GLabel 3340 4180 2    50   Input ~ 0
+Text GLabel 3340 4490 2    50   Input ~ 0
 P_31
-Text GLabel 3340 4080 2    50   Input ~ 0
+Text GLabel 3340 4390 2    50   Input ~ 0
 P_32
-NoConn ~ 3340 3980
-NoConn ~ 3340 3630
+NoConn ~ 3340 4290
+NoConn ~ 3340 3940
 Wire Notes Line
-	790  3260 3780 3260
+	790  3570 3780 3570
 Wire Notes Line
-	3780 3260 3780 7480
+	3780 3570 3780 7790
 Wire Notes Line
-	3780 7480 770  7480
+	3780 7790 770  7790
 Wire Notes Line
-	770  7480 770  3260
-Text Notes 830  3390 0    50   ~ 0
+	770  7790 770  3570
+Text Notes 830  3700 0    50   ~ 0
 TEENSY 4.1
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5FB0F507
-P 1030 1940
-F 0 "H1" H 1130 1989 50  0000 L CNN
-F 1 "3mm" H 1130 1898 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1030 1940 50  0001 C CNN
-F 3 "~" H 1030 1940 50  0001 C CNN
-	1    1030 1940
+P 9360 1730
+F 0 "H1" H 9460 1779 50  0000 L CNN
+F 1 "3mm" H 9460 1688 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9360 1730 50  0001 C CNN
+F 3 "~" H 9360 1730 50  0001 C CNN
+	1    9360 1730
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5FB10477
-P 1030 2260
-F 0 "H2" H 930 2217 50  0000 R CNN
-F 1 "3mm" H 930 2308 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1030 2260 50  0001 C CNN
-F 3 "~" H 1030 2260 50  0001 C CNN
-	1    1030 2260
+P 9360 2050
+F 0 "H2" H 9260 2007 50  0000 R CNN
+F 1 "3mm" H 9260 2098 50  0000 R CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9360 2050 50  0001 C CNN
+F 3 "~" H 9360 2050 50  0001 C CNN
+	1    9360 2050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5FB107BD
-P 1610 1940
-F 0 "H3" H 1710 1989 50  0000 L CNN
-F 1 "3mm" H 1710 1898 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1610 1940 50  0001 C CNN
-F 3 "~" H 1610 1940 50  0001 C CNN
-	1    1610 1940
+P 9940 1730
+F 0 "H3" H 10040 1779 50  0000 L CNN
+F 1 "3mm" H 10040 1688 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9940 1730 50  0001 C CNN
+F 3 "~" H 9940 1730 50  0001 C CNN
+	1    9940 1730
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5FB10CDE
-P 1610 2260
-F 0 "H4" H 1510 2217 50  0000 R CNN
-F 1 "3mm" H 1510 2308 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1610 2260 50  0001 C CNN
-F 3 "~" H 1610 2260 50  0001 C CNN
-	1    1610 2260
+P 9940 2050
+F 0 "H4" H 9840 2007 50  0000 R CNN
+F 1 "3mm" H 9840 2098 50  0000 R CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9940 2050 50  0001 C CNN
+F 3 "~" H 9940 2050 50  0001 C CNN
+	1    9940 2050
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5FB11597
-P 780 2160
-F 0 "#PWR02" H 780 1910 50  0001 C CNN
-F 1 "GND" H 785 1987 50  0000 C CNN
-F 2 "" H 780 2160 50  0001 C CNN
-F 3 "" H 780 2160 50  0001 C CNN
-	1    780  2160
+P 9110 1950
+F 0 "#PWR02" H 9110 1700 50  0001 C CNN
+F 1 "GND" H 9115 1777 50  0000 C CNN
+F 2 "" H 9110 1950 50  0001 C CNN
+F 3 "" H 9110 1950 50  0001 C CNN
+	1    9110 1950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	780  2160 1030 2160
+	9110 1950 9360 1950
 Wire Wire Line
-	1030 2160 1030 2040
-Connection ~ 1030 2160
+	9360 1950 9360 1830
+Connection ~ 9360 1950
 Wire Wire Line
-	1030 2040 1610 2040
-Connection ~ 1030 2040
+	9360 1830 9940 1830
+Connection ~ 9360 1830
 Wire Wire Line
-	1610 2040 1610 2160
+	9940 1830 9940 1950
 Wire Wire Line
-	1610 2160 1030 2160
-Connection ~ 1610 2040
-Connection ~ 1610 2160
+	9940 1950 9360 1950
+Connection ~ 9940 1830
+Connection ~ 9940 1950
 Wire Notes Line
-	670  2450 1950 2450
+	9000 2240 10280 2240
 Wire Notes Line
-	1950 1710 670  1710
-Text Notes 680  1890 0    50   ~ 0
+	10280 1500 9000 1500
+Text Notes 9010 1680 0    50   ~ 0
 MOUNTING\nHOLES
 Wire Notes Line
-	1950 1710 1950 2450
+	10280 1500 10280 2240
 Wire Notes Line
-	670  1710 670  2450
+	9000 1500 9000 2240
 $Comp
 L 74xx:74HC245 U3
 U 1 1 5FB16A3D
@@ -810,123 +810,123 @@ Wire Notes Line
 	6150 4680 4050 4680
 Wire Notes Line
 	4050 4680 4050 2680
-Text Notes 8450 770  0    50   ~ 0
+Text Notes 7070 4970 0    50   ~ 0
 RJ-45 Bus 1\nBuffer 1&2 Output
 Wire Wire Line
-	9870 1620 9870 1420
-Connection ~ 9870 1620
+	8490 5820 8490 5620
+Connection ~ 8490 5820
 Wire Wire Line
-	9550 1620 9870 1620
+	8170 5820 8490 5820
 Wire Wire Line
-	9870 1420 9870 1220
-Connection ~ 9870 1420
+	8490 5620 8490 5420
+Connection ~ 8490 5620
 Wire Wire Line
-	9550 1420 9870 1420
+	8170 5620 8490 5620
 Wire Wire Line
-	9870 1220 9870 1020
-Connection ~ 9870 1220
+	8490 5420 8490 5220
+Connection ~ 8490 5420
 Wire Wire Line
-	9550 1220 9870 1220
-Connection ~ 9870 1020
+	8170 5420 8490 5420
+Connection ~ 8490 5220
 Wire Wire Line
-	9550 1020 9870 1020
+	8170 5220 8490 5220
 Wire Wire Line
-	9870 1970 9870 1770
-Connection ~ 9870 1970
+	8490 6170 8490 5970
+Connection ~ 8490 6170
 Wire Wire Line
-	9870 2170 9870 1970
+	8490 6370 8490 6170
 Wire Wire Line
-	9550 1970 9870 1970
-Connection ~ 9870 2170
+	8170 6170 8490 6170
+Connection ~ 8490 6370
 Wire Wire Line
-	9870 2370 9870 2170
+	8490 6570 8490 6370
 Wire Wire Line
-	9550 2170 9870 2170
-Connection ~ 9870 2370
+	8170 6370 8490 6370
+Connection ~ 8490 6570
 Wire Wire Line
-	9550 2370 9870 2370
+	8170 6570 8490 6570
 Wire Wire Line
-	9870 2570 9870 2370
+	8490 6770 8490 6570
 Wire Wire Line
-	9550 2570 9870 2570
+	8170 6770 8490 6770
 Wire Wire Line
-	10190 2370 9870 2370
+	8810 6570 8490 6570
 Wire Wire Line
-	10190 2170 9870 2170
+	8810 6370 8490 6370
 Wire Wire Line
-	10190 1970 9870 1970
-Connection ~ 9870 1770
+	8810 6170 8490 6170
+Connection ~ 8490 5970
 Wire Wire Line
-	10190 1770 9870 1770
+	8810 5970 8490 5970
 Wire Wire Line
-	10190 1420 9870 1420
+	8810 5620 8490 5620
 Wire Wire Line
-	10190 1220 9870 1220
+	8810 5420 8490 5420
 Wire Wire Line
-	10190 1020 9870 1020
+	8810 5220 8490 5220
 Wire Wire Line
-	9870 820  10190 820 
-Text GLabel 10190 2470 0    50   Input ~ 0
+	8490 5020 8810 5020
+Text GLabel 8810 6670 0    50   Input ~ 0
 L_18
-Text GLabel 10190 2270 0    50   Input ~ 0
+Text GLabel 8810 6470 0    50   Input ~ 0
 L_17
-Text GLabel 10190 2070 0    50   Input ~ 0
+Text GLabel 8810 6270 0    50   Input ~ 0
 L_16
-Text GLabel 10190 1520 0    50   Input ~ 0
+Text GLabel 8810 5720 0    50   Input ~ 0
 L_14
-Text GLabel 10190 1320 0    50   Input ~ 0
+Text GLabel 8810 5520 0    50   Input ~ 0
 L_13
-Text GLabel 10190 1120 0    50   Input ~ 0
+Text GLabel 8810 5320 0    50   Input ~ 0
 L_12
-Text GLabel 10190 920  0    50   Input ~ 0
+Text GLabel 8810 5120 0    50   Input ~ 0
 L_11
-Text GLabel 9550 920  2    50   Input ~ 0
+Text GLabel 8170 5120 2    50   Input ~ 0
 L_08
-Text GLabel 9550 1120 2    50   Input ~ 0
+Text GLabel 8170 5320 2    50   Input ~ 0
 L_07
-Text GLabel 9550 1320 2    50   Input ~ 0
+Text GLabel 8170 5520 2    50   Input ~ 0
 L_06
-Text GLabel 9550 1520 2    50   Input ~ 0
+Text GLabel 8170 5720 2    50   Input ~ 0
 L_05
-Text GLabel 9550 1870 2    50   Input ~ 0
+Text GLabel 8170 6070 2    50   Input ~ 0
 L_04
-Text GLabel 9550 2070 2    50   Input ~ 0
+Text GLabel 8170 6270 2    50   Input ~ 0
 L_03
-Text GLabel 9550 2270 2    50   Input ~ 0
+Text GLabel 8170 6470 2    50   Input ~ 0
 L_02
-Text GLabel 9550 2470 2    50   Input ~ 0
+Text GLabel 8170 6670 2    50   Input ~ 0
 L_01
 $Comp
 L Connector:8P8C_x4 J1
 U 3 1 5FBD3466
-P 9150 2720
-F 0 "J1" H 8820 3174 50  0000 R CNN
-F 1 "8P8C_x4" H 8820 3265 50  0000 R CNN
-F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 9150 2720 50  0001 C CNN
-F 3 "" H 9150 2720 50  0001 C CNN
-	3    9150 2720
+P 7770 6920
+F 0 "J1" H 7440 7374 50  0000 R CNN
+F 1 "8P8C_x4" H 7440 7465 50  0000 R CNN
+F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 7770 6920 50  0001 C CNN
+F 3 "" H 7770 6920 50  0001 C CNN
+	3    7770 6920
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:8P8C_x4 J1
 U 2 1 5FBCBC15
-P 10590 1620
-F 0 "J1" H 10260 2074 50  0000 R CNN
-F 1 "8P8C_x4" H 10260 2165 50  0000 R CNN
-F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 10590 1620 50  0001 C CNN
-F 3 "" H 10590 1620 50  0001 C CNN
-	2    10590 1620
+P 9210 5820
+F 0 "J1" H 8880 6274 50  0000 R CNN
+F 1 "8P8C_x4" H 8880 6365 50  0000 R CNN
+F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 9210 5820 50  0001 C CNN
+F 3 "" H 9210 5820 50  0001 C CNN
+	2    9210 5820
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:8P8C_x4 J1
 U 1 1 5FBAD18C
-P 10590 670
-F 0 "J1" H 10260 1124 50  0000 R CNN
-F 1 "8P8C_x4" H 10260 1215 50  0000 R CNN
-F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 10590 670 50  0001 C CNN
-F 3 "" H 10590 670 50  0001 C CNN
-	1    10590 670 
+P 9210 4870
+F 0 "J1" H 8880 5324 50  0000 R CNN
+F 1 "8P8C_x4" H 8880 5415 50  0000 R CNN
+F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 9210 4870 50  0001 C CNN
+F 3 "" H 9210 4870 50  0001 C CNN
+	1    9210 4870
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
@@ -1334,38 +1334,38 @@ $EndComp
 $Comp
 L Connector:8P8C_x4 J1
 U 4 1 5FBDBC48
-P 9150 1770
-F 0 "J1" H 8820 2224 50  0000 R CNN
-F 1 "8P8C_x4" H 8820 2315 50  0000 R CNN
-F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 9150 1770 50  0001 C CNN
-F 3 "" H 9150 1770 50  0001 C CNN
-	4    9150 1770
+P 7770 5970
+F 0 "J1" H 7440 6424 50  0000 R CNN
+F 1 "8P8C_x4" H 7440 6515 50  0000 R CNN
+F 2 "Controller_T41_rev0.2:RJ45_Amphenol_RJHSE508004-ND‎" H 7770 5970 50  0001 C CNN
+F 3 "" H 7770 5970 50  0001 C CNN
+	4    7770 5970
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9870 1620 9870 1770
+	8490 5820 8490 5970
 Wire Wire Line
-	9870 820  9870 1020
+	8490 5020 8490 5220
 $Comp
 L power:GND #PWR027
 U 1 1 5FDD8731
-P 9870 2570
-F 0 "#PWR027" H 9870 2320 50  0001 C CNN
-F 1 "GND" H 9875 2397 50  0000 C CNN
-F 2 "" H 9870 2570 50  0001 C CNN
-F 3 "" H 9870 2570 50  0001 C CNN
-	1    9870 2570
+P 8490 6770
+F 0 "#PWR027" H 8490 6520 50  0001 C CNN
+F 1 "GND" H 8495 6597 50  0000 C CNN
+F 2 "" H 8490 6770 50  0001 C CNN
+F 3 "" H 8490 6770 50  0001 C CNN
+	1    8490 6770
 	1    0    0    -1  
 $EndComp
-Connection ~ 9870 2570
+Connection ~ 8490 6770
 Wire Notes Line
-	8400 600  11260 600 
+	7020 4800 9880 4800
 Wire Notes Line
-	11260 600  11260 2800
+	9880 4800 9880 7000
 Wire Notes Line
-	11260 2800 8400 2800
+	9880 7000 7020 7000
 Wire Notes Line
-	8400 2800 8400 600 
+	7020 7000 7020 4800
 Text Notes 4100 4970 0    50   ~ 0
 RJ-45 Bus 2\nBuffer 3&4 Output
 Wire Wire Line
@@ -1528,142 +1528,80 @@ Connection ~ 2030 950
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5FE314B3
-P 2290 2030
-F 0 "J3" H 2370 2022 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 2370 1931 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 2290 2030 50  0001 C CNN
-F 3 "~" H 2290 2030 50  0001 C CNN
-	1    2290 2030
+P 9290 930
+F 0 "J3" H 9370 922 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9370 831 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 9290 930 50  0001 C CNN
+F 3 "~" H 9290 930 50  0001 C CNN
+	1    9290 930 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR028
 U 1 1 5FE330B9
-P 2090 2030
-F 0 "#PWR028" H 2090 1880 50  0001 C CNN
-F 1 "VCC" H 2105 2203 50  0000 C CNN
-F 2 "" H 2090 2030 50  0001 C CNN
-F 3 "" H 2090 2030 50  0001 C CNN
-	1    2090 2030
+P 9090 930
+F 0 "#PWR028" H 9090 780 50  0001 C CNN
+F 1 "VCC" H 9105 1103 50  0000 C CNN
+F 2 "" H 9090 930 50  0001 C CNN
+F 3 "" H 9090 930 50  0001 C CNN
+	1    9090 930 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 5FE34ECE
-P 2090 2130
-F 0 "#PWR029" H 2090 1880 50  0001 C CNN
-F 1 "GND" H 2095 1957 50  0000 C CNN
-F 2 "" H 2090 2130 50  0001 C CNN
-F 3 "" H 2090 2130 50  0001 C CNN
-	1    2090 2130
+P 9090 1030
+F 0 "#PWR029" H 9090 780 50  0001 C CNN
+F 1 "GND" H 9095 857 50  0000 C CNN
+F 2 "" H 9090 1030 50  0001 C CNN
+F 3 "" H 9090 1030 50  0001 C CNN
+	1    9090 1030
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3340 6080
-Text GLabel 3430 6370 1    50   Input ~ 0
+NoConn ~ 3340 6390
+Text GLabel 3430 6680 1    50   Input ~ 0
 ETH_R-
-Text GLabel 3340 6830 2    50   Input ~ 0
+Text GLabel 3340 7140 2    50   Input ~ 0
 ETH_R+
-Text GLabel 3640 6270 1    50   Input ~ 0
+Text GLabel 3640 6580 1    50   Input ~ 0
 ETH_GND
-Text GLabel 3340 6730 2    50   Input ~ 0
+Text GLabel 3340 7040 2    50   Input ~ 0
 ETH_LED
-Text GLabel 3340 6630 2    50   Input ~ 0
+Text GLabel 3340 6940 2    50   Input ~ 0
 ETH_T-
-Text GLabel 3340 6530 2    50   Input ~ 0
+Text GLabel 3340 6840 2    50   Input ~ 0
 ETH_T+
-Text Notes 2030 1790 0    50   ~ 0
+Text Notes 9030 690  0    50   ~ 0
 POWER IN
 Wire Notes Line
-	2000 1700 2000 2350
+	9000 600  9000 1250
 Wire Notes Line
-	2000 2350 3240 2350
+	9000 1250 10240 1250
 Wire Notes Line
-	3240 2350 3240 1700
+	10240 1250 10240 600 
 Wire Notes Line
-	3240 1700 2000 1700
-$Comp
-L Connector:RJ45_LED J4
-U 1 1 5FE4A107
-P 9400 3820
-F 0 "J4" H 9400 4487 50  0000 C CNN
-F 1 "RJ45_LED" H 9400 4396 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Cetus_J1B1211CCD_Horizontal" V 9400 3845 50  0001 C CNN
-F 3 "~" V 9400 3845 50  0001 C CNN
-	1    9400 3820
-	1    0    0    -1  
-$EndComp
-Text GLabel 9000 3420 0    50   Input ~ 0
-ETH_GND
-Text GLabel 9800 3420 2    50   Input ~ 0
-ETH_GND
-Text GLabel 9000 3520 0    50   Input ~ 0
-ETH_LED
-NoConn ~ 9800 3520
-Text GLabel 9800 4120 2    50   Input ~ 0
-ETH_T+
-Text GLabel 9800 3920 2    50   Input ~ 0
-ETH_T-
-Text GLabel 9800 3820 2    50   Input ~ 0
-ETH_R+
-Text GLabel 9800 3620 2    50   Input ~ 0
-ETH_R-
-Wire Wire Line
-	9800 3720 10210 3720
-Wire Wire Line
-	9800 4020 10210 4020
-$Comp
-L Device:C_Small C3
-U 1 1 5FE5D506
-P 10340 3890
-F 0 "C3" V 10111 3890 50  0000 C CNN
-F 1 "0.1uF" V 10202 3890 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10340 3890 50  0001 C CNN
-F 3 "~" H 10340 3890 50  0001 C CNN
-	1    10340 3890
-	0    1    1    0   
-$EndComp
-Text GLabel 10440 3890 2    50   Input ~ 0
-ETH_GND
-Wire Wire Line
-	10210 3720 10210 3890
-Wire Wire Line
-	10210 3890 10240 3890
-Connection ~ 10210 3890
-Wire Wire Line
-	10210 3890 10210 4020
-Text Notes 8600 3170 0    50   ~ 0
-Ethernet Jack
-Wire Notes Line
-	8580 3080 10840 3080
-Wire Notes Line
-	10840 3080 10840 4290
-Wire Notes Line
-	10840 4290 8580 4290
-Wire Notes Line
-	8580 4290 8580 3080
-NoConn ~ 9000 4020
-NoConn ~ 9000 4120
+	10240 600  9000 600 
 $Comp
 L power:GND #PWR0102
 U 1 1 5FE81ABD
-P 3640 6270
-F 0 "#PWR0102" H 3640 6020 50  0001 C CNN
-F 1 "GND" H 3645 6097 50  0000 C CNN
-F 2 "" H 3640 6270 50  0001 C CNN
-F 3 "" H 3640 6270 50  0001 C CNN
-	1    3640 6270
+P 3640 6580
+F 0 "#PWR0102" H 3640 6330 50  0001 C CNN
+F 1 "GND" H 3645 6407 50  0000 C CNN
+F 2 "" H 3640 6580 50  0001 C CNN
+F 3 "" H 3640 6580 50  0001 C CNN
+	1    3640 6580
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3340 6430 3490 6430
+	3340 6740 3490 6740
 Wire Wire Line
-	3340 6330 3340 6370
+	3340 6640 3340 6680
 Wire Wire Line
-	3340 6370 3430 6370
+	3340 6680 3430 6680
 Wire Wire Line
-	3490 6430 3490 6270
+	3490 6740 3490 6580
 Wire Wire Line
-	3490 6270 3640 6270
+	3490 6580 3640 6580
 $Comp
 L power:VCC #PWR0103
 U 1 1 5FEA3999
@@ -1675,10 +1613,72 @@ F 3 "" H 770 940 50  0001 C CNN
 	1    770  940 
 	1    0    0    -1  
 $EndComp
-Text GLabel 10190 1870 0    50   Input ~ 0
+Text GLabel 8810 6070 0    50   Input ~ 0
 L_15
 Wire Wire Line
 	1400 950  1660 950 
 Wire Wire Line
 	1120 950  1200 950 
+NoConn ~ 1200 2950
+NoConn ~ 1200 2850
+Wire Notes Line
+	780  3120 780  1910
+Wire Notes Line
+	3040 3120 780  3120
+Wire Notes Line
+	3040 1910 3040 3120
+Wire Notes Line
+	780  1910 3040 1910
+Text Notes 800  2000 0    50   ~ 0
+Ethernet Jack
+Wire Wire Line
+	2410 2720 2410 2850
+Connection ~ 2410 2720
+Wire Wire Line
+	2410 2720 2440 2720
+Wire Wire Line
+	2410 2550 2410 2720
+Text GLabel 2640 2720 2    50   Input ~ 0
+ETH_GND
+$Comp
+L Device:C_Small C3
+U 1 1 5FE5D506
+P 2540 2720
+F 0 "C3" V 2311 2720 50  0000 C CNN
+F 1 "0.1uF" V 2402 2720 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2540 2720 50  0001 C CNN
+F 3 "~" H 2540 2720 50  0001 C CNN
+	1    2540 2720
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2850 2410 2850
+Wire Wire Line
+	2000 2550 2410 2550
+Text GLabel 2000 2450 2    50   Input ~ 0
+ETH_R-
+Text GLabel 2000 2650 2    50   Input ~ 0
+ETH_R+
+Text GLabel 2000 2750 2    50   Input ~ 0
+ETH_T-
+Text GLabel 2000 2950 2    50   Input ~ 0
+ETH_T+
+NoConn ~ 2000 2350
+Text GLabel 1200 2350 0    50   Input ~ 0
+ETH_LED
+Text GLabel 2000 2250 2    50   Input ~ 0
+ETH_GND
+Text GLabel 1200 2250 0    50   Input ~ 0
+ETH_GND
+$Comp
+L Connector:RJ45_LED J4
+U 1 1 5FE4A107
+P 1600 2650
+F 0 "J4" H 1600 3317 50  0000 C CNN
+F 1 "RJ45_LED" H 1600 3226 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Cetus_J1B1211CCD_Horizontal" V 1600 2675 50  0001 C CNN
+F 3 "~" V 1600 2675 50  0001 C CNN
+	1    1600 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
