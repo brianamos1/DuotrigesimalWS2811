@@ -923,7 +923,7 @@ L_02
 Text GLabel 8170 6670 2    50   Input ~ 0
 L_01
 $Comp
-L Connector:8P8C_x4 J1
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J1
 U 3 1 5FBD3466
 P 7770 6920
 F 0 "J1" H 7440 7374 50  0000 R CNN
@@ -934,7 +934,7 @@ F 3 "" H 7770 6920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:8P8C_x4 J1
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J1
 U 2 1 5FBCBC15
 P 9210 5820
 F 0 "J1" H 8880 6274 50  0000 R CNN
@@ -945,7 +945,7 @@ F 3 "" H 9210 5820 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:8P8C_x4 J1
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J1
 U 1 1 5FBAD18C
 P 9210 4870
 F 0 "J1" H 8880 5324 50  0000 R CNN
@@ -1376,7 +1376,7 @@ F 4 "C110789" H 7060 1530 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:8P8C_x4 J1
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J1
 U 4 1 5FBDBC48
 P 7770 5970
 F 0 "J1" H 7440 6424 50  0000 R CNN
@@ -1499,7 +1499,7 @@ L_22
 Text GLabel 5840 5120 0    50   Input ~ 0
 L_21
 $Comp
-L Connector:8P8C_x4 J2
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J2
 U 2 1 5FE1C52F
 P 4800 6920
 F 0 "J2" H 4470 7374 50  0000 R CNN
@@ -1510,7 +1510,7 @@ F 3 "" H 4800 6920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:8P8C_x4 J2
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J2
 U 4 1 5FE1C535
 P 6240 5820
 F 0 "J2" H 5910 6274 50  0000 R CNN
@@ -1521,7 +1521,7 @@ F 3 "" H 6240 5820 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:8P8C_x4 J2
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J2
 U 3 1 5FE1C53B
 P 6240 4870
 F 0 "J2" H 5910 5324 50  0000 R CNN
@@ -1532,7 +1532,7 @@ F 3 "" H 6240 4870 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:8P8C_x4 J2
+L Controller_T41_rev0.2-rescue:8P8C_x4-Connector J2
 U 1 1 5FE1C541
 P 4800 5970
 F 0 "J2" H 4857 7087 50  0000 C CNN
