@@ -1765,7 +1765,7 @@ U 1 1 5FF38EC2
 P 850 690
 F 0 "#G1" H 850 637 60  0001 C CNN
 F 1 "LOGO" H 850 743 60  0001 C CNN
-F 2 "Controller_T41_rev0.2:logo" H 850 690 50  0000 C CNN
+F 2 "Controller_T41_rev0.2:logo" H 850 690 50  0001 C CNN
 F 3 "" H 850 690 50  0001 C CNN
 	1    850  690 
 	1    0    0    -1  
